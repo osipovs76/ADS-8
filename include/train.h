@@ -9,7 +9,7 @@ class Train {
     Cage *next;
     Cage *prev;
   };
-  int countOp stepsForward; // счетчик шагов (число переходов из вагона в вагон)
+  int countOp, stepsForward; // счетчик шагов (число переходов из вагона в вагон)
   Cage *first, *current; // точка входа в поезд (первый вагон)
   Train::Cage* create(bool light) { 
     Cage* cage = new Cage;
